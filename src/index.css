@@ -1,0 +1,35 @@
+/* RESET & CORE VARIABLES */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bg-dark: #050505;
+  --card-bg: #0a0a0a;
+  --board-bg: #141a16;
+  --neon-green: #22c55e;
+  --neon-green-glow: rgba(34, 197, 94, 0.45);
+  --neon-green-light: #86efac;
+  --snake-outline: #15803d;
+  --apple-red: #ef4444;
+  --border-dark: #333333;
+  --text-white: #ffffff;
+  --text-muted: #94a3b8;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text-white);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
